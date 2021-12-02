@@ -24,4 +24,6 @@ urlpatterns = [
     path('', include('projects.urls')),
     path('admin/', admin.site.urls),
     
-]+static(settings.STATIC_URL, documents_root=settings.STATIC_ROOT)
+]
+urlpatterns += static(settings.STATIC_URL, documents_root=settings.STATIC_ROOT)
+urlpatterns += static(settings.MEDIA_URL, documents_root=settings.MEDIA_ROOT)
