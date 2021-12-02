@@ -4,7 +4,7 @@
 
 ```
 git clone https://github.com/Steco17/SimplePortfolio.git
-cd django-portfolio-simple
+cd SimplePortfolio
 pip install -r requirements.txt
 python manage.py runserver
 ```
